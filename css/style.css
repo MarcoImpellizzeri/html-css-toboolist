@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* titolo e logo della pagina*/
+.intestazione {
+    height: 150px;
+    background-color: white;  
+}
+
+#img-logo{
+    margin-left: 30px;
+    height: 80px;
+}
+
+h1, #img-logo {
+    line-height: 150px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 70px;
+}
+
