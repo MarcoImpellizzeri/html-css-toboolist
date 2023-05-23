@@ -5,10 +5,11 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #F6F8F9;
     font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* header */
 /* titolo e logo della pagina*/
 .intestazione {
     height: 150px;
@@ -27,3 +28,42 @@ h1, #img-logo {
     font-size: 70px;
 }
 
+/* main */
+
+.button, .list {
+    width: 75%;
+    padding-left: 50px;
+    background-color: white;
+    margin: auto;
+}
+
+/* section button*/
+
+.button {
+    height: 70px;
+    margin-top: 50px;
+    line-height: 70px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#b-task, #b-section{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+#b-task {
+    color: white;
+    background-color: #47ADF1;
+}
+
+#b-section{
+    color: lightgray;
+    background-color: white;
+}
+
+/* section list */
+
+.list {
+    margin-top: 5px;
+}
