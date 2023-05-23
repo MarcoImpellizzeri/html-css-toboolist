@@ -14,24 +14,25 @@
     </header>
 
     <main>
-        <!-- devo creare due sezioni una con due tasti ed una con all'interno i vari sottotitoli -->
-        <section class="button">
+        <!-- devo creare due contenitori una con due tasti ed una con all'interno i vari sottotitoli -->
+        <div class="button">
             <button id="b-task">Add Task</button>
             <button id="b-section">Add Section</button>
-        </section>
+        </div>
 
-        <!-- una sezione con liste -->
-        <section class="contenitore-liste">
-            <div class="lista a">
+        <!-- un contenitore con liste -->
+        <div class="contenitore-liste">
+            <!-- sezioni della lista -->
+            <section class="lista a">
                 <span>&dtrif;</span><h2>New Task</h2>
                 <p>
                     <span class="check">&check;</span>
                     Quarterly Nnewslatter 
                     <mark class="editorial">Editorial</mark>
                 </p>
-            </div>
+            </section>
 
-            <div class="lista b">
+            <section class="lista b">
                 <span>&dtrif;</span><h2>Today</h2>
                 <p>
                     <span class="check">&check;</span>
@@ -53,9 +54,9 @@
                     Summit update to mobile storefronts
                     <mark class="mobile">Mobile</mark>
                 </p>
-            </div>
+            </section>
 
-            <div class="lista c">
+            <section class="lista c">
                 <span>&dtrif;</span><h2>Upcoming</h2>
                 <p>
                     <span class="cross">&cross;</span>
@@ -74,8 +75,8 @@
                     Review editorial calendar
                     <mark class="editorial">Editorial</mark>
                 </p>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 </body>
 </html>
