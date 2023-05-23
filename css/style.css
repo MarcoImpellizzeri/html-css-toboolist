@@ -12,20 +12,20 @@ body {
 /* header */
 /* titolo e logo della pagina*/
 .intestazione {
-    height: 150px;
+    height: 100px;
     background-color: white;  
 }
 
 #img-logo{
     margin-left: 30px;
-    height: 80px;
+    height: 70px;
 }
 
 h1, #img-logo {
-    line-height: 150px;
+    line-height: 100px;
     vertical-align: middle;
     display: inline-block;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 /* main */
@@ -68,6 +68,7 @@ h1, #img-logo {
     line-height: 40px;
     margin-top: 5px;
     padding: 50px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .a, .b {
