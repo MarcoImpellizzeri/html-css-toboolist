@@ -30,9 +30,8 @@ h1, #img-logo {
 
 /* main */
 
-.button, .list {
+.button, .contenitore-liste {
     width: 75%;
-    padding-left: 50px;
     background-color: white;
     margin: auto;
 }
@@ -42,6 +41,7 @@ h1, #img-logo {
 .button {
     height: 70px;
     margin-top: 50px;
+    padding-left: 50px;
     line-height: 70px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -64,6 +64,16 @@ h1, #img-logo {
 
 /* section list */
 
-.list {
+.contenitore-liste {
+    line-height: 40px;
     margin-top: 5px;
+    padding: 50px;
+}
+
+.a, .b {
+    padding-bottom: 25px;
+}
+
+h2 {
+    display: inline-block;
 }
