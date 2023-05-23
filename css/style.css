@@ -31,7 +31,7 @@ h1, #img-logo {
 /* main */
 
 .button, .contenitore-liste {
-    width: 75%;
+    width: 50%;
     background-color: white;
     margin: auto;
 }
@@ -39,10 +39,10 @@ h1, #img-logo {
 /* section button*/
 
 .button {
-    height: 70px;
+    height: 60px;
     margin-top: 50px;
     padding-left: 50px;
-    line-height: 70px;
+    line-height: 60px;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -77,4 +77,54 @@ h1, #img-logo {
 
 h2 {
     display: inline-block;
+}
+
+.check, .cross {
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.check{
+    color: #75C8B5;
+}
+
+.cross{
+    color: #EB746F;
+}
+
+mark {
+    color: white;
+    font-size: 11px;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.editorial {
+    background-color: #45ABEA;
+    
+}
+
+.q1-goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
 }
